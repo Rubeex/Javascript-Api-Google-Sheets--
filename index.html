@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="bg-red-800">Menu Food Today</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section class="flex justify-center w-full">
+      <div class="min-w-[300px] mt-10 py-4">
+        <div class="w-full h-[120px] mb-5">
+          <img class="object-contain w-full h-full" src="logo.png" alt="logo" />
+        </div>
+        <h1 class="text-center font-semibold text-2xl">Restaurant Food West</h1>
+        <div class="flex justify-center my-3">
+          <div class="w-[25px]">
+            <img
+              src="location.png"
+              class="object-contain w-full h-full"
+              alt="address"
+            />
+          </div>
+          <h3 class="text-gray-400 font-semibold">5TH CENTER AVENUE</h3>
+        </div>
+        <div class="flex mt-15 sm:mt-10 justify-center text-white">
+          <button
+            class="py-3 px-4 rounded-xl font-semibold bg-orange-500 hover:bg-orange-700"
+            id="mostrarMenuBtn"
+          >
+            Mostrar Menu
+          </button>
+        </div>
+        <div id="Horario-menu" class="text-center my-2 sm:my-3 font-semibold text-[13px] text-gray-400"></div>
+        <div id="container" class="flex flex-col justify-center sm:flex-row">
+
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
